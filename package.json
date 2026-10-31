@@ -1,0 +1,20 @@
+{
+  "name": "evolve-eye-bot",
+  "version": "1.0.0",
+  "description": "Discord community operations bot: onboarding, events, reminders, accountability",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@notionhq/client": "^5.20.0",
+    "discord.js": "^14.26.4",
+    "express": "^5.2.1",
+    "js-yaml": "^4.1.1"
+  }
+}
